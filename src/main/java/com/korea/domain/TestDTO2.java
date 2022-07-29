@@ -6,19 +6,16 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Controller;
-import sun.jvm.hotspot.oops.Mark;
-
 
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
 @Component
-public class TestDTO
+public class TestDTO2
 {
     private String name;
     private String age;
     private String addr;
-
 
 }
