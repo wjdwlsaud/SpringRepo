@@ -1,6 +1,5 @@
 package com.korea.domain;
 
-import jdk.internal.org.jline.utils.Log;
 import lombok.extern.log4j.Log4j;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -30,7 +29,7 @@ public class DTOTest
     @Test
     public void Test_2()
     {
-        Log.info("testDTO : " + testdto);
+        log.info("testDTO : " + testdto);
     }
 
 }

@@ -40,6 +40,6 @@ public class HomeController
         dto.setAddr("주소주소");
         System.out.println(dto);
 
-        return "home";
+        return "index";
     }
 }
