@@ -1,5 +1,6 @@
 package com.korea.domain;
 
+import jdk.internal.org.jline.utils.Log;
 import lombok.extern.log4j.Log4j;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -24,6 +25,12 @@ public class DTOTest
         TestDTO dto = TestDTO.builder().age("55").name("홍길동").addr("주소주소").build();
         System.out.println(dto);
 
+    }
+
+    @Test
+    public void Test_2()
+    {
+        Log.info("testDTO : " + testdto);
     }
 
 }
